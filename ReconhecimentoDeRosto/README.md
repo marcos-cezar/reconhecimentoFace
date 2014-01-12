@@ -20,3 +20,28 @@ g++ *.cpp `pkg-config --cflags --libs opencv` -o release/reconhecimentoDeRosto -
 Este projeto foi promovido pela disciplina Engenharia de Sistemas
 Ubíquos do curso de Especialização do IFBA em Computação Distribuída
 e Ubíqua no GSORT acompanhado pelo professor Manoel Neto. 
+
+
+Instruções para compilar o projeto.
+-----------------------------------
+
+Execute o comando 
+
+git clone https://github.com/marcos-cezar/reconhecimentoFace.git
+
+em seguida execute 
+
+cd ReconhecimentoDeRosto
+
+por último execute
+
+make
+
+no diretório release estará o executável de nome
+reconhecimentoDeRosto que deverá ser executado em linha de comando,
+passando 2 arquivos que descrevem o padrão de imagem
+(haarcascade_frontalface_alt.xml, haarcascade_eye_tree_eyeglasses.xml)
+e o arquivo csv (faces.csv)
+que descreve o caminho do conjunto de imagens para treinar o algoritmo.
+
+
