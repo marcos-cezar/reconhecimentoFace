@@ -1,0 +1,38 @@
+
+CSVReader.cpp,453
+CSVReader::CSVReader() {CSVReader14,251
+CSVReader::CSVReader() {CSVReader::CSVReader14,251
+CSVReader::~CSVReader() {~CSVReader18,291
+CSVReader::~CSVReader() {CSVReader::~CSVReader18,291
+void CSVReader::read_csv(const string &filename, vector<Mat> &images, vector<int> &labels, char separator) read_csv21,320
+void CSVReader::read_csv(const string &filename, vector<Mat> &images, vector<int> &labels, char separator) CSVReader::read_csv21,320
+
+CSVReader.hpp,192
+#define _CSVREADER_H__CSVREADER_H_2,22
+class CSVReader CSVReader12,160
+    string absoluteFilename;absoluteFilename16,189
+    string absoluteFilename;CSVReader::absoluteFilename16,189
+
+faceCropScript.py,462
+import sys, math, Imagesys34,1613
+import sys, math, Imagemath34,1613
+import sys, math, ImageImage34,1613
+def Distance(p1,p2):Distance36,1638
+def ScaleRotateTranslate(image, angle, center = None, new_center = None, scale = None, resample=Image.BICUBIC):ScaleRotateTranslate41,1734
+def CropFace(image, eye_left=(0,0), eye_right=(0,0), offset_pct=(0.2,0.2), dest_sz = (70,70)):CropFace60,2298
+  image =  Image.open('%s.jpg' % sys.argv[1])image85,3437
+
+main.cpp,511
+String eyes_cascade_name =eyes_cascade_name22,586
+String csv_name =csv_name24,722
+CascadeClassifier face_cascade;face_cascade26,823
+CascadeClassifier eyes_cascade;eyes_cascade27,855
+string window_name = "Capture - Face detection";window_name28,887
+Ptr<FaceRecognizer> model;model29,936
+int im_width;im_width32,980
+int im_height;im_height33,994
+void detectAndDisplay(Mat frame) detectAndDisplay35,1010
+int readFromVideo() readFromVideo107,3368
+int main(int argc, char** argv) {main168,4759
+
+Makefile,0
