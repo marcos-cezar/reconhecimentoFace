@@ -17,12 +17,6 @@
 using namespace cv;
 using namespace std;
 
-String face_cascade_name =
-    "/home/ian/git/reconhecimentoRosto/ReconhecimentoDeRosto/src/files/haarcascade_frontalface_alt.xml";
-String eyes_cascade_name =
-    "/home/ian/git/reconhecimentoRosto/ReconhecimentoDeRosto/src/files/haarcascade_eye_tree_eyeglasses.xml";
-String csvPath =
-    "/home/ian/git/reconhecimentoRosto/ReconhecimentoDeRosto/src/files/faces.csv";
 CascadeClassifier face_cascade;
 CascadeClassifier eyes_cascade;
 string window_name = "Capture - Face detection";
